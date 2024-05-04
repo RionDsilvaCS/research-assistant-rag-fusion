@@ -35,8 +35,11 @@ cd DB
 
 Configure project settings make sure you have the ollama running on your device.
 https://ollama.com/download
+
 https://ollama.com/library/llama3
+
 https://ollama.com/library/mistral
+
 
 Now everthying is ready to be run
 ```
@@ -47,8 +50,10 @@ cd APP
 streamlit run app.py
 ```
 
+
 ![response img1](./img/response_11.png)
 ![response img1](./img/response_12.png)
+
 
 ### Offline RAG-Fusion Pipeline
 
