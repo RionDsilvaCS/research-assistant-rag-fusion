@@ -57,7 +57,7 @@ streamlit run app.py
 
 ### Offline RAG-Fusion Pipeline
 
-![flow](./img/flow.jpeg)
+![flow](./img/flow.jpg)
 
 
 ### Boost Your Research Efficiency with These Powerful Benefits:
