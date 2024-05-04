@@ -1,6 +1,10 @@
 # Offline Retrieval-Augmented Generation Fusion (RAG-Fusion) Application with Ollama, Langchain, Llama3-8B, FAISS and Mistral-7B
 
-This project implements a complete offline RAG-Fusion application for text generation and retrieval, leveraging efficient local resources. It offers several key advantages:
+![rag-fusion_diagram](./img/RAG-Fusion_Diagram.png)
+
+Reference paper - https://arxiv.org/pdf/2402.03367
+
+This project implements a complete offline RAG-Fusion application for text generation and retrieval, leveraging efficient local resources.
 
 - **Offline Operation:** Runs entirely without internet connectivity, ideal for scenarios with limited or unreliable network access.
 - **Zero Cost:** Utilizes freely available open-source tools, minimizing infrastructure expenses.
@@ -19,11 +23,14 @@ Clone this repository.
 git clone https://github.com/RionDsilvaCS/research-assistant-rag-fusion.git
 ```
 
-create your own vector db
-
 Install required dependencies (make sure you are inside the git dir)
 ```
 pip install -r requirements.txt
+```
+
+To create your own vector db
+```
+cd DB
 ```
 
 Configure project settings make sure you have the ollama running on your device.
@@ -40,11 +47,12 @@ cd APP
 streamlit run app.py
 ```
 
-![response img](./img/)
-
+![response img1](./img/response_11.png)
+![response img1](./img/response_12.png)
 
 ### Offline RAG-Fusion Pipeline
 
+![flow](./img/flow.jpeg)
 
 
 ### Boost Your Research Efficiency with These Powerful Benefits:
